@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Terre — Nature Inspired Pottery</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap)" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">La Terre</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#" id="cart-link">🛒 (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Handcrafted Pottery Inspired by Nature</h2>
+      <p>Earthy textures, organic forms, timeless beauty.</p>
+      <a href="#shop" class="btn">Shop the Collection</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Portfolio</h2>
+    <div class="grid">
+      <img src="[images.unsplash.com](https://images.unsplash.com/photo-1604328698692-f76ea9498e76?auto=format&fit=crop&w=800&q=80)" alt="Clay pottery bowl">
+      <img src="[images.unsplash.com](https://images.unsplash.com/photo-1603217192474-5ab6f3f1e89b?auto=format&fit=crop&w=800&q=80)" alt="Studio pottery vase">
+      <img src="[images.unsplash.com](https://images.unsplash.com/photo-1589114479142-ff3dcdd837b8?auto=format&fit=crop&w=800&q=80)" alt="Textured ceramic cup">
+      <img src="[images.unsplash.com](https://images.unsplash.com/photo-1616628189196-361ba697f467?auto=format&fit=crop&w=800&q=80)" alt="Pottery sculpture">
+      <img src="[images.unsplash.com](https://images.unsplash.com/photo-1584302179604-9a046490395c?auto=format&fit=crop&w=800&q=80)" alt="Clay plate">
+      <img src="[images.unsplash.com](https://images.unsplash.com/photo-1615485297770-d9b2a63a64a6?auto=format&fit=crop&w=800&q=80)" alt="Pottery set">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-container">
+      <img src="[images.unsplash.com](https://images.unsplash.com/photo-1578301978913-90e7778d9c4a?auto=format&fit=crop&w=600&q=80)" alt="Artist portrait">
+      <div class="about-text">
+        <h2>About the Artist</h2>
+        <p>I’m Élise Maron, a ceramicist drawing inspiration from forest walks, mountain textures, and seaside driftwood. Each piece I shape is an homage to the earth — organic, imperfect, yet deeply harmonious.</p>
+        <p>Using natural clays and glazes crafted from local minerals, my studio practice honors the slow rhythm of handmade creation. You’re invited to bring a piece of nature into your home.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop">
+    <h2>Shop The Collection</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="[images.unsplash.com](https://images.unsplash.com/photo-1580910051073-dc6b3e2e16a0?auto=format&fit=crop&w=800&q=80)" alt="Stone bowl">
+        <h3>Stone Bowl</h3>
+        <p>$48</p>
+        <button class="add-to-cart" data-name="Stone Bowl" data-price="48">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="[images.unsplash.com](https://images.unsplash.com/photo-1602526219046-3ca6f3e4ae35?auto=format&fit=crop&w=800&q=80)" alt="Willow Vase">
+        <h3>Willow Vase</h3>
+        <p>$72</p>
+        <button class="add-to-cart" data-name="Willow Vase" data-price="72">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="[images.unsplash.com](https://images.unsplash.com/photo-1605997287211-0f7a528b2f79?auto=format&fit=crop&w=800&q=80)" alt="Earthen Mug">
+        <h3>Earthen Mug</h3>
+        <p>$36</p>
+        <button class="add-to-cart" data-name="Earthen Mug" data-price="36">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 La Terre Pottery · Handcrafted with Nature</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
